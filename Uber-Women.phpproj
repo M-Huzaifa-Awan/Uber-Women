@@ -7,9 +7,4 @@
   <ItemGroup>
     <Content Remove="*.tmp" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Controller\" />
-    <Folder Include="Documentation\" />
-    <Folder Include="Model\" />
-  </ItemGroup>
 </Project>
