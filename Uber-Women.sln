@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "Uber-Women", "Uber-Women.phpproj", "{93CAFA89-FE89-4B29-A000-57E1DEA1B686}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93CAFA89-FE89-4B29-A000-57E1DEA1B686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CAFA89-FE89-4B29-A000-57E1DEA1B686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CAFA89-FE89-4B29-A000-57E1DEA1B686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CAFA89-FE89-4B29-A000-57E1DEA1B686}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E5D6164-6AC6-412A-9B9F-06056712CBD6}
+	EndGlobalSection
+EndGlobal
