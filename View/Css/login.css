@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #d53369, #cbad6d);
+    background: linear-gradient(to right, #d53369, #d53369, #cbad6d);
 }
 #main{
     width: 100%;
@@ -26,21 +26,21 @@ body {
     box-shadow: #e0cfcf7d 0px 1px 13px 1px;
     background: radial-gradient(circle, #d5336944, #cbad6d37,rgba(255, 255, 255, 0.347));
 }
-.p h1{
+.p-2 h1{
   color: rgb(254, 254, 255);
 }
-.p p{
+.p-2 p{
     color: rgb(255, 255, 255);
     font-size: larger;
 }
-.p a,.p button{
+.p-2 a,.p-2 button{
     margin-left: 20px;
     color:white;
     margin-right: 20px;
     border: 1px solid rgb(255, 255, 255);
     
 }
-.p a:hover,.p button:hover{
+.p-2 a:hover,.p-2 button:hover{
     scale: 1.1;
     color: white;
     
@@ -63,7 +63,7 @@ button:hover{
    .loginForm a{
     display:block;
 }
-.p a:hover,.p button:hover{
+.p-2 a:hover,.p-2 button:hover{
    background-color: white;
 }
   }

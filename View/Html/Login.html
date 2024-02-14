@@ -16,29 +16,34 @@
 
     <div class="container text-center">
         <div id="main" class="d-flex flex-row mb-3 justify-content-center align-items-center">
-            <div class="p">
+            <div class="p-2">
                 <div class="loginForm">
                     <div class="container">
                         <h1>Welcome back</h1>
-                        <div class="form-floating mt-3 mb-3">
-                            <input type="number" class="form-control" placeholder="name@example.com">
-                            <label for="floatingInput">Phone Number</label>
-                        </div>
-                        <div class="form-floating">
-                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                            <label for="floatingPassword">Password</label>
-                        </div>
-                        <div class="d-grid gap-2">
-                            <button class="btn  mt-5" type="button">Login</button>
-                            <a class="btn " href="./signup.html" role="button" target="_blank">Signup As
-                                Driver</a>
-                            <a class="btn mb-3" href="./signup.html" role="button" target="_blank">Signup As
-                                Passenger</a>
-                        </div>
+                        <form autocomplete="off">
+
+
+                            <div class="form-floating mt-3 mb-3">
+                                <input type="number" id="number" class="form-control" placeholder="name@example.com">
+                                <label for="floatingInput">Phone Number</label>
+                            </div>
+                            <div class="form-floating">
+                                <input type="password" autocomplete="off" class="form-control" id="Password"
+                                    placeholder="Password">
+                                <label for="floatingPassword">Password</label>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <button class="btn  mt-5" type="button" onclick="check()">Login</button>
+                                <a class="btn " href="./signup.html" role="button" target="_blank">Signup As
+                                    Driver</a>
+                                <a class="btn mb-3" href="./signup.html" role="button" target="_blank">Signup As
+                                    Passenger</a>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="p">
+            <div class="p-2">
                 <div class="sidebar">
                     <h1>No Account?</h1><br>
                     <p>Lets Create a new Account to begin a journey</p>
@@ -56,6 +61,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="../Js/login.js"></script>
 </body>
 
 </html>

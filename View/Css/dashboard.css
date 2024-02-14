@@ -1,0 +1,62 @@
+body {
+    background: linear-gradient(to right, #d53369, #d53369, #cbad6d);
+}
+.offcanvas-body{
+    background: radial-gradient( #5c4e3265,#54142953);
+    color: #d53369;
+backdrop-filter: blur(10px);
+}
+.offcanvas-title{
+    background-color: white;
+}
+.accordion-button,
+.accordion-body{
+    color: #d53369;
+    background-color: #cbad6d;
+    background: radial-gradient(#d5336953, #cbad6d65);
+}
+.offcanvas-body{
+    min-height:115vmin;
+}
+button i {
+    
+    scale: 1.1;
+}
+#can{
+    background-color: aliceblue;
+}
+#ifg{
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+#re{
+    position: absolute;
+    top:0%;
+}
+
+
+.p-2 h1{
+  color: rgb(254, 254, 255);
+}
+.p-2 p{
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+.p-2 a,.p-2 button{
+    margin-left: 20px;
+    color:white;
+    margin-right: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+.p-2 a:hover,.p-2 button:hover{
+    scale: 1.1;
+    color: white;
+    
+    background:linear-gradient(to right,#cbad6d,#d53369);
+    border: 1px solid black;
+}
+
+button:hover{
+    scale: 1.1;
+}
