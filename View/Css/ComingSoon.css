@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(to right, #d53369, #d53369, #cbad6d);
+}
+#main{
+    width: 100%;
+    height:95vh;
+    gap: 0;
+    color: aliceblue;
+}

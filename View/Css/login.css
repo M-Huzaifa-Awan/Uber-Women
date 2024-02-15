@@ -6,11 +6,21 @@ body {
     height:95vh;
     gap: 0;
 }
+.all{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
 .loginForm{
     background: linear-gradient(to left, #d5336944, #cbad6d37,rgba(255, 255, 255, 0.347));
     min-height: 64vh;
     min-width: 50vmax;
     padding: 0;
+    backdrop-filter: blur(4px);
     border-radius: 7%;
     box-shadow: #e0cfcf7d 0px 1px 13px 1px;
     border: 1px solid rgba(242, 234, 234, 0.275);
@@ -22,6 +32,7 @@ body {
     min-height: 64vh;
     min-width: 27vmax;
     max-width: 27vmax;
+    backdrop-filter: blur(4px);
     border: 1px solid rgba(242, 234, 234, 0.275);
     box-shadow: #e0cfcf7d 0px 1px 13px 1px;
     background: radial-gradient(circle, #d5336944, #cbad6d37,rgba(255, 255, 255, 0.347));

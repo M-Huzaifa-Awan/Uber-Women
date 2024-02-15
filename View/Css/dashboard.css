@@ -1,39 +1,68 @@
 body {
+    /* background-repeat:no-repeat; */
+    background-size: cover;
     background: linear-gradient(to right, #d53369, #d53369, #cbad6d);
+    /* mix-blend-mode:darken; */
 }
-.offcanvas-body{
-    background: radial-gradient( #5c4e3265,#54142953);
-    color: #d53369;
-backdrop-filter: blur(10px);
+.all{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+#offcanvasWithBothOptions{
+    background: none ;
+    backdrop-filter: blur(3px);
+     background: linear-gradient(to left, #d5336944, #cbad6d37,rgba(255, 255, 255, 0.347));
+     box-shadow: inset #ff00ee 0px 0px 20px 20px;
+  
+    border-radius: 7%;
+    box-shadow: #e0cfcf7d 0px 1px 13px 1px;
+    border: 1px solid rgba(242, 234, 234, 0.275);
+}
+.accordion-button{
+    background: none ;
+    /* background: linear-gradient(266deg, #d5336969, #cbad6da1,rgb(255 255 255 / 79%));
+     */
+     background: linear-gradient(to left, #d5336944, #cbad6d37,rgba(255, 255, 255, 0.347));
+     box-shadow: inset #ff00ee 0px 0px 20px 20px;
+  
+    border-radius: 7%;
+    box-shadow: #e0cfcf7d 0px 1px 13px 1px;
+    border: 1px solid rgba(242, 234, 234, 0.275);
 }
 .offcanvas-title{
     background-color: white;
 }
-.accordion-button,
-.accordion-body{
-    color: #d53369;
-    background-color: #cbad6d;
-    background: radial-gradient(#d5336953, #cbad6d65);
+.accordion-button{
+    color: #ff0055;
+    background-color: #f8a900;
+    /* background: radial-gradient(#d5336953, #cbad6d65); */
 }
-.offcanvas-body{
-    min-height:115vmin;
+#canvas-ttop{
+    background-color: rgb(255, 255, 255);
 }
-button i {
-    
-    scale: 1.1;
-}
-#can{
-    background-color: aliceblue;
+#main{
+    width: 95%;
+    height:45vh;
+    gap: 0;
+    color: rgb(255 255 255);
+    text-shadow: 0px 0px 17px #afd800;
 }
 #ifg{
-    padding-left: 3rem;
-    padding-top: 1rem;
+    padding-left: 5rem;
+    /* padding-top: 1rem; */
+    max-width: 768px;
 }
-#re{
-    position: absolute;
-    top:0%;
+.d-grid a{
+    color: #000000;
 }
-
+#addon-wrapping{
+    background:linear-gradient(to left,rgb(41, 41, 41),#5a5a5a);
+}
 
 .p-2 h1{
   color: rgb(254, 254, 255);
@@ -50,10 +79,16 @@ button i {
     
 }
 .p-2 a:hover,.p-2 button:hover{
-    scale: 1.1;
+    /* scale: 1.1; */
     color: white;
     
-    background:linear-gradient(to right,#cbad6d,#d53369);
+    background:linear-gradient(to left,rgba(255, 255, 255, 0.709),#fcc03ec4,#f13775c2);
+    border: 1px solid black;
+}
+.accordion button:hover,.accordion a:hover{
+    /* scale: 1.1; */
+    font-size: 1.1rem;
+    background:linear-gradient(to left,rgba(255, 255, 255, 0.709),#fcc03ec4,#f13775c2);
     border: 1px solid black;
 }
 
