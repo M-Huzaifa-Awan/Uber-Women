@@ -91,7 +91,28 @@ body {
     background:linear-gradient(to left,rgba(255, 255, 255, 0.709),#fcc03ec4,#f13775c2);
     border: 1px solid black;
 }
-
+.col button:hover{
+background-color: #afd800;
+scale: 1;
+}
+.col button{
+    margin-top: 1rem;
+    height: 80px;
+    width: 140px;
+scale: 1;
+}
 button:hover{
     scale: 1.1;
+}
+.Sidebar{
+    background-color: white;
+}
+.contaner{
+    max-width: 100%;
+    max-height: 100vh;
+    overflow-x: hidden;
+}
+iframe{
+    max-width: 100%;
+    max-height: 100vh;
 }
