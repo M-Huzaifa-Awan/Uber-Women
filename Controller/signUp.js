@@ -65,11 +65,13 @@ function handleSubmit(event) {
     formData.append('licensePic', licensePic);
 
     // Send license picture and form data to server for verification and registration
-    verifyLicenseAndRegister(formData);
+    /*verifyLicenseAndRegister(formData);*/
+    window.location.href = "dashboard.html";
+
 }
 
 // Function to send data to server for verification and registration
-function verifyLicenseAndRegister(formData) {
+/*function verifyLicenseAndRegister(formData) {
     var xhr = new XMLHttpRequest();
     xhr.open('POST', '/Model/register.php', true);
     xhr.onreadystatechange = function() {
@@ -84,7 +86,25 @@ function verifyLicenseAndRegister(formData) {
         }
     };
     xhr.send(formData);
-}
+}*/
 
 
 document.querySelector('form').addEventListener('submit', handleSubmit);
+
+function verify() {
+
+    var password1 = document.getElementById("exampleInputPassword1").value;
+    var password2 = document.getElementById("exampleInputPassword2").value;
+    if (password1 != password2) {
+        alert("Passwords Donot Match!!!");
+        return;
+    }
+    window.location.href = "verification.html";
+}
+function verifyCode() {
+    var code = document.getElementById("verificationCode").value;
+    if (code == "1912") {
+        window.location.href = "login.html";
+        alert("Registration Successful");
+    }
+}
