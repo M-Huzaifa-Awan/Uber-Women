@@ -4,45 +4,21 @@ body {
     background: linear-gradient(to right, #d53369, #d53369, #cbad6d);
     /* mix-blend-mode:darken; */
 }
-.all{
-    height: 100vh;
-    width: 100%;
-
-    background-image: url("../images/logo.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* filter:blur(10px); */
-    
-    
+iframe{
+    max-width: 100%;
+    max-height: 100vh;
+}
+button:hover{
+    scale: 1.1;
 }
 #offcanvasWithBothOptions{
     background: none ;
-    backdrop-filter: blur(3px);
-    background: linear-gradient(to left, #d5336944, #cbad6d37,rgba(255, 255, 255, 0.347));
-    box-shadow: inset #ff00ee 0px 0px 20px 20px;
+    backdrop-filter: blur(10%);
+    background: linear-gradient(to left, #d533692e, #cbad6d2e,rgba(255, 255, 255, 0.23));
     
     border-radius: 7%;
-    box-shadow: #e0cfcf7d 0px 1px 13px 1px;
+    box-shadow: inset #f4ffc6bd 0px 1px 30px 1px ;
     border: 1px solid rgba(242, 234, 234, 0.275);
-}
-.accordion-button{
-    background: none ;
-    /* background: linear-gradient(266deg, #d5336969, #cbad6da1,rgb(255 255 255 / 79%));
-     */
-     background: linear-gradient(to left, #d5336944, #cbad6d37,rgba(255, 255, 255, 0.347));
-     box-shadow: inset #ff00ee 0px 0px 20px 20px;
-  
-    border-radius: 7%;
-    box-shadow: #e0cfcf7d 0px 1px 13px 1px;
-    border: 1px solid rgba(242, 234, 234, 0.275);
-}
-.offcanvas-title{
-    background-color: white;
-}
-.accordion-button{
-    color: #ff0055;
-    background-color: #f8a900;
-    /* background: radial-gradient(#d5336953, #cbad6d65); */
 }
 #canvas-ttop{
     background-color: rgb(255, 255, 255);
@@ -67,6 +43,38 @@ body {
     /* padding-top: 1rem; */
     max-width: 768px;
 }
+.all{
+    height: 100vh;
+    width: 100%;
+
+    background-image: url("../images/logo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter:blur(10px); */
+    
+    
+}
+
+.accordion-button{
+    background: none ;
+    /* background: linear-gradient(266deg, #d5336969, #cbad6da1,rgb(255 255 255 / 79%));
+     */
+     background: linear-gradient(to left, #d5336944, #cbad6d37,rgba(255, 255, 255, 0.347));
+     box-shadow: inset #ff00ee 0px 0px 20px 20px;
+  
+    border-radius: 7%;
+    box-shadow: #e0cfcf7d 0px 1px 13px 1px;
+    border: 1px solid rgba(242, 234, 234, 0.275);
+}
+.offcanvas-title{
+    background-color: white;
+}
+.accordion-button{
+    color: #ff0055;
+    background-color: #f8a900;
+    /* background: radial-gradient(#d5336953, #cbad6d65); */
+}
+
 .d-grid a{
     color: #000000;
 }
@@ -96,7 +104,7 @@ body {
     border: 1px solid black;
 }
 .accordion button:hover,.accordion a:hover{
-    /* scale: 1.1; */
+    scale: 1;
     font-size: 1.1rem;
     background:linear-gradient(to left,rgba(255, 255, 255, 0.709),#fcc03ec4,#f13775c2);
     border: 1px solid black;
@@ -114,18 +122,7 @@ color: #000000;
     width: 140px;
 scale: 1;
 }
-button:hover{
-    scale: 1.1;
-}
+
 .Sidebar{
     background-color: white;
-}
-.contaner{
-    max-width: 100%;
-    max-height: 100vh;
-    overflow-x: hidden;
-}
-iframe{
-    max-width: 100%;
-    max-height: 100vh;
 }
