@@ -8,17 +8,25 @@
     <title>Women Uber - Dashboard</title>
     <script src="https://kit.fontawesome.com/1da9f8390c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../Css/dashboard.css">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
-<body>
+<body onload="showspin()">
+    <div id="spiner" class="spinner-border display-5  text-light z-3 position-absolute top-50 start-50"
+        style="width: 3rem; height: 3rem;" role="status">
+        <span class=" visually-hidden">
+            <p> Loading...</p>
+        </span>
+    </div>
+
     <div class="all">
         <div class="contaner ">
             <div class="row">
                 <div class="col-md-12 Sidebar p-0 sticky-top">
                     <div class="Sidebar">
-                        <button id="re" class="btn btn-lg" type="button" data-bs-toggle="offcanvas"
+                        <button id="re" class="btn btn-lg ms-3" type="button" data-bs-toggle="offcanvas"
                             data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions"><i
                                 class="fa-solid fa-bars"></i></button>
 
@@ -136,8 +144,8 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <div id="if" class="mmp">
-                        <iframe
+                    <div class="mmp">
+                        <iframe id="if"
                             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13598.70769263646!2d74.33032!3d31.56048!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391904b4bafe5d01%3A0x59431c10f268505e!2sNational%20University%20of%20Modern%20Languages%2C%20Lahore!5e0!3m2!1sen!2s!4v1707930544354!5m2!1sen!2s"
                             width="1300" height="400" style="border:0;"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -216,8 +224,7 @@
                 </div>
             </div>
         </div>
-
-
+        <script src="../../Controller/dashboard.js"></script>
 
 
 
@@ -226,7 +233,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
             crossorigin="anonymous"></script>
-    </div>
+
 </body>
 
 </html>
